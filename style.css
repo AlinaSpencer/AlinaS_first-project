@@ -1,0 +1,421 @@
+/* This are comments */
+
+/* Main Section */
+body { background-color: #F2F2F2;
+}
+
+
+#page-wrapper {
+ width: 80%;
+ margin: 0px auto;
+ height: fit-content;
+ font-family: "Inter", sans-serif;
+}
+
+header {
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-top: 20px;
+}
+
+.logo-of-my-company {
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.menu ul li { 
+ display: inline ;
+ padding: 0px 24px;
+}
+
+.contact-btn {
+font-size:xx-large;
+padding: 0.5rem 1rem;
+border: 2px solid #000000;
+border-radius: 12px;
+background-color: #F2F2F2;
+cursor: pointer;
+font-size: 0.75rem;
+transition: all 0.3s ease;
+}
+
+
+.intro {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 40px 120px 60px;
+ width: 1280px;
+ height: 842px;
+ margin: 40px, auto 60px;
+ }
+
+.rounded-imgage {
+ width: 100%;
+ height: 360px;
+ margin-top: 10px;
+ border-radius: 36px;
+}
+
+img {
+ border-radius: 36px;
+ overflow: clip;
+ margin-bottom: 40px;
+}
+
+.intro h1 {
+ font-size: 48px;
+ text-align: center;
+ padding-top: 20px;
+ padding-left: 0;
+ padding-bottom: 20px;
+ padding-right: 0;
+ }
+
+.intro p {
+ font-size: 24px;
+ text-align: center;
+ padding-top: 20px;
+ padding-left: 0;
+ padding-bottom: 20px;
+ padding-right: 0;
+}
+
+#my-works-section {
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ padding: 0 120px;
+ margin: 0 auto 60px;
+ }
+
+.my-works-header {
+ font-size: 28px;
+ text-align: center;
+ margin: 20px, 0;
+ padding: 30px;
+ display: flex;
+ justify-content: center;
+}
+
+
+.image-row {
+display: flex;
+justify-content:center;
+flex-wrap: wrap;
+gap: 100px;
+}
+
+
+.card {
+background-color: #F2F2F2;
+border-radius: 34px;
+box-shadow: 0 2px 10px gray;
+max-width: 260px;
+max-height: 350px;
+text-align:left;
+overflow: hidden;
+}
+
+.card-image {
+width: 267px;
+height: 230px;
+margin-bottom: 0;
+}
+
+.card-image-1 {
+width: 267px;
+height: 230px;
+margin-bottom: 0;
+}
+
+.card-content {
+text-align: left;
+margin: 0px;
+}
+
+h2 {
+ padding-left: 20px;
+ margin: 0 15px 0;
+}
+
+.card-content p1 {
+text-align: center;
+padding-left: 20px;
+margin: 0 15px 25px;
+}
+
+* {
+ margin: inherit;}
+
+.work-process-section {
+ margin: 40px;
+ border: 1px solid transparent;
+ background-color: #747474;
+ background-image: linear-gradient(#E5E5E5, #F2F2F2);
+ border-radius: 40px 40px 0 0;
+ width: 1280px;
+}
+
+.work-process-header {
+ text-align: center;
+ font: 28px Times;
+ color: #000000;
+ margin: auto 60px;
+ padding: 30px;
+ display: flex;
+ flex-flow: row nowrap;
+ justify-content: center;
+}
+ 
+
+ .title-number {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 120px 0;
+ }
+
+
+ .text-title {
+   font-style: italic;
+   font-size: 48px;
+   text-align: left;
+   margin: 0;
+ }
+
+ .number-circle {
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   padding: 8px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   background: #F2F2F2;
+   border: 2px solid #000000;
+   color: #000000;
+   text-align:center;
+   font: 28px Times;
+   position: relative;
+}
+
+.line {
+ height: 2px;
+ width: 80%;
+ color: #747474;
+ margin: 0 auto 12px auto;
+}
+
+.work-process-description {
+ font-size: 18px;
+ font-family: 'Inter';
+ font-weight: 400;
+ text-align: left;
+ margin: 0 120px 80px;
+}
+
+.get-in-touch-section {
+ border: 1px solid transparent;
+ background-color: #221C1C;
+ border-radius: 40px 40px 0px 0px;
+ width: 1280px;
+ margin: 40px 40px 0 40px;
+}
+
+
+.title-get-in-touch {
+ font-size: 56px;
+ font-family: 'Inter';
+ font-weight: 400;
+ text-align-last: center;
+ color: #F2F2F2;
+ margin: 80px auto 40px;
+}
+
+
+.get-in-touch-description {
+ font-size: 20px;
+ font-family: 'Inter';
+ font-weight: 400;
+ text-align-last: center;
+ color: #F2F2F2;
+ margin: 0 auto 24px;
+ display: flex;
+ justify-content: center;
+}
+
+
+form {
+ display: block;
+ margin-top: 0em;
+ unicode-bidi: isolate;
+}
+
+.form {
+ display: grid;
+ width: 100%;
+ justify-content: center;
+}
+
+.input-field {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ height: 37px;
+}
+
+input {
+ height: 37px;
+ width: 47%;
+}
+
+textarea, input {
+ background-color: rgba(255, 255, 255, 0.12);
+ border-radius: 12px;
+ font-size: 12px;
+ font-family: 'Inter';
+ font-weight: 400;
+ text-align-last: left;
+ color: rgba(255, 255, 255, 0.40);
+ border: 0;
+ display: block;
+}
+
+textarea {
+ width: 504px;
+ height: 84px;
+ resize: vertical;
+}
+
+.send-message {
+ padding: 24px 32px 24px;
+ background-color: transparent;
+ border-radius: 12px;
+ border: 2px solid #FFFFFF;
+ margin: 0 auto 80px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 15px;
+ font-family: 'inter';
+ font-weight: 600;
+ color: #FFFFFF;
+}
+
+.footer {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-wrap: nowrap;
+ position: relative;
+ width: 1280px;
+ height: 32px;
+ margin: 0 40px 0 40px;
+ padding: 40px 120px 20px 120px;
+ background: #221C1C;
+ border-top: 2px dashed #ffffff;
+}
+
+.alina-footer {
+ flex-shrink: 0;
+ flex-basis: auto;
+ position: relative;
+ height: 24px;
+ color: #ffffff;
+ font-family: Inter, var(--default-font-family);
+ font-size: 20px;
+ font-weight: 700;
+ line-height: 24px;
+ text-align: left;
+ white-space: nowrap;
+}
+
+.footer-links {
+ display: flex;
+ align-items: flex-start;
+ justify-content: center;
+ flex-wrap: nowrap;
+ flex-shrink: 0;
+ gap: 18px;
+ position:relative;
+ width: 195px;
+ z-index: 1;
+}
+
+.social-media {
+ display: flex;
+ align-items: flex-start;
+ justify-content: flex-start;
+ flex-shrink: 0;
+ flex-basis: auto;
+ position: relative;
+ width: 133px;
+ height: 30px;
+ color: #ffffff;
+ font-family: Inter, var(--default-font-family);
+ font-size: 20px;
+ font-weight: 700;
+ line-height: 24.205px;
+ text-align: left;
+ text-decoration: underline;
+ text-transform: capitalize;
+ white-space: nowrap;
+ z-index: 2;
+}
+
+/* About Section */
+
+
+
+
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+   box-sizing: border-box;
+ }
+ 
+ /* 2. Remove default margin */
+ * {
+   margin: 0;
+ }
+ 
+ body {
+   /* 3. Add accessible line-height */
+   line-height: 1.5;
+   /* 4. Improve text rendering */
+   -webkit-font-smoothing: antialiased;
+ }
+ 
+ /* 5. Improve media defaults */
+ img, picture, video, canvas, svg {
+   display: block;
+   max-width: 100%;
+ }
+ 
+ /* 6. Inherit fonts for form controls */
+ input, button, textarea, select {
+   font: inherit;
+ }
+ 
+ /* 7. Avoid text overflows */
+ p, h1, h2, h3, h4, h5, h6 {
+   overflow-wrap: break-word;
+ }
+ 
+ /* 8. Improve line wrapping */
+ p {
+   text-wrap: pretty;
+ }
+ h1, h2, h3, h4, h5, h6 {
+   text-wrap: balance;
+ }
+ 
+ /*
+   9. Create a root stacking context
+ */
+ #root, #__next {
+   isolation: isolate;
+ }
+ /* css reset end */
